@@ -1,0 +1,22 @@
+
+---
+
+**LogFuseTracer**  
+**Description:**  
+Identifies overlapping log segments that fuse into combined error signatures or trigger chains.
+
+```markdown
+# LogFuseTracer - Composite Log Pattern Analyzer
+
+LogFuseTracer detects when multiple log sources or messages fuse into repeatable or cascading outcomes.
+
+## Features
+- Fuse-point detection  
+- Chain correlation map  
+- CLI export with grouping
+
+## Usage
+```bash
+git clone https://github.com/your-username/LogFuseTracer.git
+cd LogFuseTracer
+python analyze.py
