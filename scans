@@ -1,0 +1,22 @@
+
+---
+
+**APIRollingLens**  
+**Description:**  
+Tracks performance changes across API endpoints with a rolling time window and visual pulse overlays.
+
+```markdown
+# APIRollingLens - Time-Sensitive API Performance Viewer
+
+APIRollingLens continuously scans endpoints and highlights degradation or delay within a dynamic rolling window.
+
+## Features
+- Time-window-based tracking  
+- Overlay charts for latency  
+- JSON / CSV logging
+
+## Usage
+```bash
+git clone https://github.com/your-username/APIRollingLens.git
+cd APIRollingLens
+python monitor.py
